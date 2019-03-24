@@ -16,7 +16,6 @@ public class TwoSum {
 
   /**
    * To retrieve the indices of the two numbers such that they add up to a specific target.
-   * This method's time and space complexity is O(N).
    *
    * @param nums   an array of integers
    * @param target sum of the two numbers in nums
