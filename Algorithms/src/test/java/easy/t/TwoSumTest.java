@@ -1,11 +1,9 @@
 package easy.t;
 
-import easy.t.TwoSum;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertTrue;
 
 public class TwoSumTest {
 
