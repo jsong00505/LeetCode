@@ -2,8 +2,6 @@ package medium.a;
 
 import common.ListNode;
 
-import java.util.Stack;
-
 /**
  * Created by jsong on 24/03/2019.
  *
