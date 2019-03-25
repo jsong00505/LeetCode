@@ -39,7 +39,7 @@ public class TwoSum {
   public int[] twoSumN2(int[] nums, int target) {
 
     int numsSize = nums.length;
-    for (int i = 0; i < numsSize; i++) {
+    for (int i = 0; i < numsSize - 1; i++) {
       for (int j = i + 1; j < numsSize; j++) {
         if (nums[i] + nums[j] == target) {
           return new int[] {i, j};
