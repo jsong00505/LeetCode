@@ -17,10 +17,10 @@ public class TwoSum {
   /**
    * To retrieve the indices of the two numbers such that they add up to a specific target.
    *
-   * @param nums   an array of integers
+   * @param nums an array of integers
    * @param target sum of the two numbers in nums
-   * @return indices of the two numbers such that they add up to a specific target.
-   * If there is no valid indices it will return null.
+   * @return indices of the two numbers such that they add up to a specific target. If there is no
+   *     valid indices it will return null.
    */
   public int[] twoSum(int[] nums, int target) {
 
@@ -28,7 +28,7 @@ public class TwoSum {
     int numsSize = nums.length;
     for (int i = 0; i < numsSize; i++) {
       if (restOfTarget.contains(nums[i])) {
-        return new int[]{restOfTarget.indexOf(nums[i]), i};
+        return new int[] {restOfTarget.indexOf(nums[i]), i};
       }
       restOfTarget.add(target - nums[i]);
     }
@@ -42,7 +42,7 @@ public class TwoSum {
     for (int i = 0; i < numsSize; i++) {
       for (int j = i + 1; j < numsSize; j++) {
         if (nums[i] + nums[j] == target) {
-          return new int[]{i, j};
+          return new int[] {i, j};
         }
       }
     }

@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertTrue;
 
 public class TwoSumTest {
@@ -17,7 +18,7 @@ public class TwoSumTest {
   }
 
   @Test
-  public void test1TwoSum() throws Exception {
+  public void test1TwoSum() {
     // test input
     int[] nums = {3, 3};
     int target = 6;
@@ -29,11 +30,11 @@ public class TwoSumTest {
     int[] actual = twoSum.twoSum(nums, target);
 
     // assertion
-    assertTrue(Arrays.equals(expected, actual));
+    assertArrayEquals(expected, actual);
   }
 
   @Test
-  public void test2TwoSum() throws Exception {
+  public void test2TwoSum() {
     // test input
     int[] nums = {2, 7, 11, 15};
     int target = 9;
@@ -45,11 +46,11 @@ public class TwoSumTest {
     int[] actual = twoSum.twoSum(nums, target);
 
     // assertion
-    assertTrue(Arrays.equals(expected, actual));
+    assertArrayEquals(expected, actual);
   }
 
   @Test
-  public void test1TwoSumN2() throws Exception {
+  public void test1TwoSumN2() {
     // test input
     int[] nums = {3, 3};
     int target = 6;
@@ -61,11 +62,11 @@ public class TwoSumTest {
     int[] actual = twoSum.twoSumN2(nums, target);
 
     // assertion
-    assertTrue(Arrays.equals(expected, actual));
+    assertArrayEquals(expected, actual);
   }
 
   @Test
-  public void test2TwoSumN2() throws Exception {
+  public void test2TwoSumN2() {
     // test input
     int[] nums = {2, 7, 11, 15};
     int target = 9;
@@ -77,6 +78,6 @@ public class TwoSumTest {
     int[] actual = twoSum.twoSumN2(nums, target);
 
     // assertion
-    assertTrue(Arrays.equals(expected, actual));
+    assertArrayEquals(expected, actual);
   }
 }
