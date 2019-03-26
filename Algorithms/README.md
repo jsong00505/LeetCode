@@ -12,6 +12,7 @@ This module is about Algorithms in LeetCode.
  V | 6  | [ZigZag Conversion][6-link] | [ZigZagConversion.java][6-solution] | Medium
  V | 7  | [Reverse Integer][7-link] | [ReverseInteger.java][7-solution] | Easy
  V | 8  | [String to Integer (atoi)][8-link] | [StringToIntegerAtoi.java][8-solution] | Medium
+ V | 9  | [Palindrome Number][9-link] | [PalindromeNumber.java][9-solution] | Easy
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -30,3 +31,5 @@ This module is about Algorithms in LeetCode.
 [7-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/ReverseInteger.java
 [8-link]: https://leetcode.com/problems/string-to-integer-atoi/
 [8-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/StringToIntegerAtoi.java
+[9-link]: https://leetcode.com/problems/palindrome-number/
+[9-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/p/PalindromeNumber.java
