@@ -3,7 +3,7 @@ package medium.l;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class LongestPalindromicSubstringTest {
 
@@ -20,7 +20,7 @@ public class LongestPalindromicSubstringTest {
     String s = "babad";
 
     // set expected value
-    String expected = "aba";
+    String expected = "bab";
 
     // perform test
     String actual = longestPalindromicSubstring.longestPalindrome(s);
@@ -50,10 +50,25 @@ public class LongestPalindromicSubstringTest {
     String s = "babaddtattarrattatddetartrateedredividerb";
 
     // set expected value
+    String expected = "ddtattarrattatdd";
+
+    // perform test
+    String actual = longestPalindromicSubstring.longestPalindrome(s);
+
+    // assertions
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test4LongestPalindrome() {
+    // test input
+    String s = "";
+
+    // set expected value
     String expected = "";
 
     // perform test
-    String actual = longestPalindromicSubstring.timeLimitExceeded(s);
+    String actual = longestPalindromicSubstring.longestPalindrome(s);
 
     // assertions
     assertEquals(expected, actual);

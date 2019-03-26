@@ -8,7 +8,7 @@ This module is about Algorithms in LeetCode.
  V | 2  | [Add Two Numbers][2-link] | [AddTwoNumbers.java][2-solution] | Medium
  V | 3  | [Longest Substring Without Repeating Characters][3-link] | [LongestSubstringWithoutRepeatingCharacters.java][3-solution] | Medium
  V | 4  | [Median Of Two Sorted Arrays][4-link] | [MedianOfTwoSortedArrays.java][4-solution] | Hard
-   | 5  | [Longest Palindromic Substring][5-link] | [LongestPalindromicSubstring.java][5-solution] | Medium
+ V | 5  | [Longest Palindromic Substring][5-link] | [LongestPalindromicSubstring.java][5-solution] | Medium
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
