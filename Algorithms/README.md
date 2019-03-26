@@ -10,6 +10,7 @@ This module is about Algorithms in LeetCode.
  V | 4  | [Median Of Two Sorted Arrays][4-link] | [MedianOfTwoSortedArrays.java][4-solution] | Hard
  V | 5  | [Longest Palindromic Substring][5-link] | [LongestPalindromicSubstring.java][5-solution] | Medium
  V | 6  | [ZigZag Conversion][6-link] | [ZigZagConversion.java][6-solution] | Medium
+ V | 7  | [Reverse Integer][7-link] | [ReverseInteger.java][7-solution] | Easy
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -24,3 +25,5 @@ This module is about Algorithms in LeetCode.
 [5-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/l/LongestPalindromicSubstring.java
 [6-link]: https://leetcode.com/problems/zigzag-conversion/
 [6-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/z/ZigZagConversion.java
+[7-link]: https://leetcode.com/problems/reverse-integer/
+[7-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/ReverseInteger.java
