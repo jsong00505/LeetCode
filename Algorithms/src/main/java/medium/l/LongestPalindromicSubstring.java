@@ -44,7 +44,7 @@ public class LongestPalindromicSubstring {
   }
 
   // got failed by time limit exceeded(recursive method)
-  Set<String> visited = new HashSet<String>();
+  Set<String> visited = new HashSet<>();
 
   public String timeLimitExceeded(String s) {
 

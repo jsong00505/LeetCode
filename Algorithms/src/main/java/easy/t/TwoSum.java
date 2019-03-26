@@ -24,7 +24,7 @@ public class TwoSum {
    */
   public int[] twoSum(int[] nums, int target) {
 
-    List<Integer> restOfTarget = new ArrayList<Integer>();
+    List<Integer> restOfTarget = new ArrayList<>();
     int numsSize = nums.length;
     for (int i = 0; i < numsSize; i++) {
       if (restOfTarget.contains(nums[i])) {

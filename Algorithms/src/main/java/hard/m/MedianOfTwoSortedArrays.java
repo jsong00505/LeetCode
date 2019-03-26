@@ -7,7 +7,8 @@ package hard.m;
  * @github https://github.com/jsong00505/
  * @linkedin https://www.linkedin.com/in/junesongskorea/
  * @email jsong00505@gmail.com
- * @challenge Hard - Median Of Two Sorted Arrays(https://leetcode.com/problems/median-of-two-sorted-arrays/)
+ * @challenge Hard - Median Of Two Sorted
+ *     Arrays(https://leetcode.com/problems/median-of-two-sorted-arrays/)
  */
 public class MedianOfTwoSortedArrays {
   public double findMedianSortedArrays(int[] nums1, int[] nums2) {

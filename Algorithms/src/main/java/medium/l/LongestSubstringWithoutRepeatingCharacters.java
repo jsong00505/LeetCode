@@ -1,6 +1,8 @@
 package medium.l;
 
-import java.util.*;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Set;
 
 /**
  * Created by jsong on 24/03/2019.
@@ -21,7 +23,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     int longest = 0;
-    LinkedList<Character> queue = new LinkedList<Character>();
+    LinkedList<Character> queue = new LinkedList<>();
     for (char c : s.toCharArray()) {
       if (queue.contains(c)) {
         longest = longest < queue.size() ? queue.size() : longest;
@@ -53,7 +55,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     Set<Character> chars;
     // O(n^2)
     for (int i = 0; i < s.length() - 1; i++) {
-      chars = new HashSet<Character>();
+      chars = new HashSet<>();
       chars.add(s.charAt(i));
       int length = 1;
       for (int j = i + 1; j < s.length(); j++) {

@@ -19,7 +19,7 @@ public class ZigZagConversion {
       return s;
     }
 
-    Map<Integer, StringBuilder> map = new HashMap<Integer, StringBuilder>();
+    Map<Integer, StringBuilder> map = new HashMap<>();
     int row = 1;
     boolean reverse = false;
     for (char c : s.toCharArray()) {
