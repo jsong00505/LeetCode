@@ -149,7 +149,7 @@ public class RegularExpressionMatchingTest {
     String p = "ab*a*c*a";
 
     // set expected value
-    boolean expected = false;
+    boolean expected = true;
 
     // perform test
     boolean actual = regularExpressionMatching.isMatch(s, p);
