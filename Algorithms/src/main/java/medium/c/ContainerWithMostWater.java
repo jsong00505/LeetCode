@@ -12,7 +12,6 @@ package medium.c;
  */
 public class ContainerWithMostWater {
 
-  // slightly better than brute force
   public int maxArea(int[] height) {
 
     int max = 0;
