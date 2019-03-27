@@ -16,6 +16,7 @@ This module is about Algorithms in LeetCode.
  X | 10  | [Regular Expression Matching][10-link] | [RegularExpressionMatching.java][10-solution] | Hard
  V | 11  | [Container With Most Water][11-link] | [ContainerWithMostWater.java][11-solution] | Medium
  V | 12  | [Integer to Roman][12-link] | [IntegerToRoman.java][12-solution] | Medium
+ V | 13  | [Roman to Integer][13-link] | [RomanToInteger.java][13-solution] | Easy
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -42,3 +43,5 @@ This module is about Algorithms in LeetCode.
 [11-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/ContainerWithMostWater.java
 [12-link]: https://leetcode.com/problems/integer-to-roman/
 [12-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/i/IntegerToRoman.java
+[13-link]: https://leetcode.com/problems/roman-to-integer/
+[13-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RomanToInteger.java
