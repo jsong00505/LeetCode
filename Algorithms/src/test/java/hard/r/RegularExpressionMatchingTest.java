@@ -173,4 +173,84 @@ public class RegularExpressionMatchingTest {
     // assertion
     assertEquals(expected, actual);
   }
+
+  @Test
+  public void test11IsMatch() {
+    // test input
+    String s = "ba";
+    String p = ".*a*a";
+
+    // set expected value
+    boolean expected = true;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test12IsMatch() {
+    // test input
+    String s = "bbbba";
+    String p = ".*a*a*";
+
+    // set expected value
+    boolean expected = true;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test13IsMatch() {
+    // test input
+    String s = "aaa";
+    String p = "ab*.*a";
+
+    // set expected value
+    boolean expected = true;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test14IsMatch() {
+    // test input
+    String s = "bbbbb";
+    String p = ".*a*a*a";
+
+    // set expected value
+    boolean expected = false;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test15IsMatch() {
+    // test input
+    String s = "aaaaaaaaaaaaab";
+    String p = "a*a*a*a*a*a*a*a*a*a*c";
+
+    // set expected value
+    boolean expected = false;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
 }
