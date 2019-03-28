@@ -13,7 +13,25 @@ package hard.r;
 public class RegularExpressionMatching {
 
   public boolean isMatch(String s, String p) {
-    return false;
+
+    if (p.isEmpty()) {
+      return s.isEmpty();
+    }
+
+    if (p.length() > 1 && p.charAt(1) == '*') {
+
+      boolean firstMatch = false;
+      if (s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')) {
+        firstMatch = true;
+      }
+
+      return (firstMatch && isMatch(s.substring(1), p)) || isMatch(s, p.substring(2));
+    } else {
+      if (s.length() > 0 && (s.charAt(0) == p.charAt(0) || p.charAt(0) == '.')) {
+        return isMatch(s.substring(1), p.substring(1));
+      }
+      return false;
+    }
   }
 
   // time limit exceeded
