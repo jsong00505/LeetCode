@@ -18,6 +18,7 @@ This module is about Algorithms in LeetCode.
  V | 12  | [Integer to Roman][12-link] | [IntegerToRoman.java][12-solution] | Medium
  V | 13  | [Roman to Integer][13-link] | [RomanToInteger.java][13-solution] | Easy
  V | 14  | [Longest Common Prefix][14-link] | [LongestCommonPrefix.java][14-solution] | Easy
+ V | 15  | [3Sum][15-link] | [3Sum.java][15-solution] | Medium
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -48,3 +49,5 @@ This module is about Algorithms in LeetCode.
 [13-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RomanToInteger.java
 [14-link]: https://leetcode.com/problems/longest-common-prefix/
 [14-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/l/LongestCommonPrefix.java
+[15-link]: https://leetcode.com/problems/3sum/
+[15-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/t/ThreeSum.java
