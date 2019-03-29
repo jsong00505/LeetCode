@@ -14,15 +14,23 @@ import java.util.List;
  */
 public class TwoSum {
 
-  /**
-   * To retrieve the indices of the two numbers such that they add up to a specific target.
-   *
-   * @param nums an array of integers
-   * @param target sum of the two numbers in nums
-   * @return indices of the two numbers such that they add up to a specific target. If there is no
-   *     valid indices it will return null.
-   */
+  // use hash map and it is way faster than others
   public int[] twoSum(int[] nums, int target) {
+
+    Map<Integer, Integer> rest = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+      rest.put(target - nums[i], i);
+    }
+
+    for (int i = 0; i < nums.length; i++) {
+      if (rest.containsKey(nums[i]) && rest.get(nums[i]) != i) {
+        return new int[]{i, rest.get(nums[i])};
+      }
+    }
+    return null;
+  }
+  
+  public int[] twoSumByList(int[] nums, int target) {
 
     List<Integer> restOfTarget = new ArrayList<>();
     int numsSize = nums.length;
