@@ -26,10 +26,6 @@ public class GenerateParentheses {
       List<String> parenthesisList, StringBuilder parenthesis, int n, int open, int close) {
     if (parenthesis.length() == n * 2) {
       parenthesisList.add(parenthesis.toString());
-    } else if (parenthesis.length() == (n * 2) - 1 && open > 0) {
-      return;
-    } else if (parenthesis.length() == (n * 2) - 2 && open > 1) {
-      return;
     }
 
     if (open > 0) {
@@ -38,7 +34,7 @@ public class GenerateParentheses {
       backTracking(parenthesisList, addOpenBracket, n, open - 1, close);
     }
 
-    if (close > 0 && open < close) {
+    if (open < close) {
       StringBuilder addCloseBracket = new StringBuilder();
       addCloseBracket.append(parenthesis).append(closeBracket);
       backTracking(parenthesisList, addCloseBracket, n, open, close - 1);
