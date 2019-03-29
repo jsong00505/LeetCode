@@ -21,6 +21,7 @@ This module is about Algorithms in LeetCode.
  V | 15  | [3Sum][15-link] | [3Sum.java][15-solution] | Medium
  V | 16  | [3Sum Closest][16-link] | [3SumClosest.java][16-solution] | Medium
  V | 17  | [Letter Combinations of a Phone Number][17-link] | [LetterCombinationsPhoneNumber.java][17-solution] | Medium
+ V | 18  | [4Sum][18-link] | [FourSum.java][18-solution] | Medium
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -57,3 +58,5 @@ This module is about Algorithms in LeetCode.
 [16-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/t/ThreeSumClosest.java
 [17-link]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 [17-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/l/LetterCombinationsPhoneNumber.java
+[18-link]: https://leetcode.com/problems/4sum/
+[18-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/l/FourSum.java
