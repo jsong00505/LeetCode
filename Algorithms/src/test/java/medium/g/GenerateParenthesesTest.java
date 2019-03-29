@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.junit.Assert.assertTrue;
@@ -13,7 +14,7 @@ public class GenerateParenthesesTest {
   private GenerateParentheses generateParentheses;
 
   @Before
-  public void setUp() throws Exception {
+  public void setUp() {
     generateParentheses = new GenerateParentheses();
   }
 
@@ -38,7 +39,7 @@ public class GenerateParenthesesTest {
     int n = 0;
 
     // set expected value
-    List<String> expected = Arrays.asList("");
+    List<String> expected = Collections.singletonList("");
 
     // perform test
     List<String> actual = generateParentheses.generateParenthesis(n);

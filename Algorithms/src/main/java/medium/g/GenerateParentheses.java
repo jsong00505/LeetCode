@@ -13,8 +13,8 @@ import java.util.List;
  * @challenge Medium - Generate Parentheses (https://leetcode.com/problems/generate-parentheses/)
  */
 public class GenerateParentheses {
-  char openBracket = '(';
-  char closeBracket = ')';
+  private char openBracket = '(';
+  private char closeBracket = ')';
 
   public List<String> generateParenthesis(int n) {
     List<String> parentheses = new ArrayList<>();
