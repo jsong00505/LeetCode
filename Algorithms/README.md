@@ -23,6 +23,7 @@ This module is about Algorithms in LeetCode.
  V | 17  | [Letter Combinations of a Phone Number][17-link] | [LetterCombinationsPhoneNumber.java][17-solution] | Medium
  V | 18  | [4Sum][18-link] | [FourSum.java][18-solution] | Medium
  V | 19  | [Remove Nth Node From End of List][19-link] | [RemoveNthNodeFromEndList.java][19-solution] | Medium
+ V | 20  | [Valid Parentheses][20-link] | [ValidParentheses.java][20-solution] | Easy
   
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -63,3 +64,5 @@ This module is about Algorithms in LeetCode.
 [18-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/f/FourSum.java
 [19-link]: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 [19-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RemoveNthNodeFromEndList.java
+[20-link]: https://leetcode.com/problems/valid-parentheses/
+[20-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/v/ValidParentheses.java
