@@ -27,7 +27,8 @@ This module is about Algorithms in LeetCode.
  V | 21  | [Merge Two Sorted Lists][21-link] | [MergeTwoSortedLists.java][21-solution] | Easy
  V | 22  | [Generate Parentheses][22-link] | [GenerateParentheses.java][22-solution] | Medium
  V | 23  | [Merge k Sorted Lists][23-link] | [MergeSortedLists.java][23-solution] | Hard
-  
+ V | 24  | [Swap Nodes in Pairs][24-link] | [SwapNodesInPair.java][24-solution] | Medium
+   
   
 [1-link]: https://leetcode.com/problems/two-sum/
 [1-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/t/TwoSum.java
@@ -73,5 +74,7 @@ This module is about Algorithms in LeetCode.
 [21-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/m/MergeTwoSortedLists.java
 [22-link]: https://leetcode.com/problems/generate-parentheses/
 [22-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/g/GenerateParentheses.java
-[23-link]: https://leetcode.com/problems/merge-k-sorted-lists/submissions/
+[23-link]: https://leetcode.com/problems/merge-k-sorted-lists/
 [23-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/m/MergeSortedLists.java
+[24-link]: https://leetcode.com/problems/swap-nodes-in-pairs/
+[24-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SwapNodesInPairs.java
