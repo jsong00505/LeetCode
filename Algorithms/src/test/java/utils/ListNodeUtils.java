@@ -31,4 +31,21 @@ public class ListNodeUtils {
     }
     return firstNode;
   }
+
+  public ListNode[] listNodes(int[][] vals) {
+    ListNode[] lists = new ListNode[vals.length];
+    ListNode firstNode = null;
+    ListNode indexNode = null;
+    for (int i = 0; i < vals.length; i++) {
+      for(int j = 0; j < vals[i].length; j++)
+      if (j == 0) {
+        firstNode = indexNode = new ListNode(vals[i][j]);
+      } else {
+        indexNode.next = new ListNode(vals[i][j]);
+        indexNode = indexNode.next;
+      }
+      lists[i] = firstNode;
+    }
+    return lists;
+  }
 }
