@@ -29,6 +29,9 @@ This module is about Algorithms in LeetCode.
  V | 23  | [Merge k Sorted Lists][23-link] | [MergeSortedLists.java][23-solution] | Hard
  V | 24  | [Swap Nodes in Pairs][24-link] | [SwapNodesInPair.java][24-solution] | Medium
  V | 25  | [Reverse Nodes in k-Group][25-link] | [ReverseNodesInGroup.java][25-solution] | Hard
+ V | 26  | [Remove Duplicates from Sorted Array][26-link] | [RemoveDuplicatesFromSortedArray.java][26-solution] | Easy
+ 
+ 
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -81,3 +84,5 @@ This module is about Algorithms in LeetCode.
 [24-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SwapNodesInPairs.java
 [25-link]: https://leetcode.com/problems/reverse-nodes-in-k-group/
 [25-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/r/ReverseNodesInGroup.java
+[26-link]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[26-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RemoveDuplicatesFromSortedArray.java
