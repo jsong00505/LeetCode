@@ -31,6 +31,7 @@ This module is about Algorithms in LeetCode.
  V | 25  | [Reverse Nodes in k-Group][25-link] | [ReverseNodesInGroup.java][25-solution] | Hard
  V | 26  | [Remove Duplicates from Sorted Array][26-link] | [RemoveDuplicatesFromSortedArray.java][26-solution] | Easy
  V | 27  | [Remove Element][27-link] | [RemoveElement.java][27-solution] | Easy
+ V | 28  | [Implement strStr()][28-link] | [ImplementStrStr.java][28-solution] | Easy
  
  
    
@@ -87,5 +88,7 @@ This module is about Algorithms in LeetCode.
 [25-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/r/ReverseNodesInGroup.java
 [26-link]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [26-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RemoveDuplicatesFromSortedArray.java
-[26-link]: https://leetcode.com/problems/remove-element/
-[26-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RemoveElement.java
+[27-link]: https://leetcode.com/problems/remove-element/
+[27-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RemoveElement.java
+[28-link]: https://leetcode.com/problems/implement-strstr/
+[28-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/i/ImplementStrStr.java
