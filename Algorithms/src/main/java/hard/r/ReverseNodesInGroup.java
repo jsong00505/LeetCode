@@ -16,13 +16,15 @@ import java.util.Stack;
  */
 public class ReverseNodesInGroup {
   public ListNode reverseKGroup(ListNode head, int k) {
+
+    // create dummy header
     ListNode dummy = new ListNode(0);
     dummy.next = head;
     ListNode current = dummy;
-    while (current != null) {
-      // save the first node of the next batch
-      ListNode last = current;
 
+    while (current != null) {
+      // point to last
+      ListNode last = current;
       for (int i = 0; i < k; i++) {
         if (last.next != null) {
           last = last.next;
@@ -31,6 +33,7 @@ public class ReverseNodesInGroup {
         }
       }
 
+      // reverse current batch
       current = reverse(current, current.next, last, k);
     }
     return dummy.next;
@@ -38,14 +41,19 @@ public class ReverseNodesInGroup {
 
   private ListNode reverse(ListNode first, ListNode current, ListNode last, int k) {
 
+    // avoid stack empty exception
     if (current == null) {
       return current;
     }
 
+    // save the start node of the next batch
     ListNode nextBatchNode = last.next;
+
+    // unlink 1 to 2 and link 1 to last
     first.next = last;
     Stack<ListNode> stack = new Stack<>();
 
+    // push the nodes into stack
     int i = 0;
     while (i < k && current != null) {
       stack.push(current);
@@ -53,13 +61,17 @@ public class ReverseNodesInGroup {
       i++;
     }
 
+    // reverse each nodes by pop in stack
     current = stack.pop();
     while (!stack.isEmpty()) {
       ListNode node = stack.pop();
       current.next = node;
       current = node;
     }
+
+    // link the last to the first node of the next batch
     current.next = nextBatchNode;
+
     return current;
   }
 }
