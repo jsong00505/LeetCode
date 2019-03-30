@@ -2,10 +2,7 @@ package hard.m;
 
 import common.ListNode;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by jsong on 2019-03-29.
@@ -17,7 +14,38 @@ import java.util.List;
  * @challenge Hard - Merge k Sorted Lists (https://leetcode.com/problems/merge-k-sorted-lists/)
  */
 public class MergeSortedLists {
+
+  // use min heap
   public ListNode mergeKLists(ListNode[] lists) {
+
+    if(lists.length == 0 || lists == null) {
+      return null;
+    }
+
+    PriorityQueue<ListNode> heap =
+        new PriorityQueue<>(lists.length, Comparator.comparingInt(o -> o.val));
+
+    for (ListNode node : lists) {
+      if (node != null) {
+        heap.add(node);
+      }
+    }
+
+    ListNode head = new ListNode(0), tail = head;
+
+    while (!heap.isEmpty()) {
+      tail.next = heap.poll();
+      tail = tail.next;
+      if (tail.next != null) {
+        heap.add(tail.next);
+      }
+    }
+
+    return head.next;
+  }
+
+  // my own solution
+  public ListNode myOwnSolution(ListNode[] lists) {
     HashMap<Integer, Integer> map = new HashMap<>();
     for (ListNode node : lists) {
       while (node != null) {

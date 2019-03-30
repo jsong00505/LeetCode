@@ -45,4 +45,19 @@ public class MergeSortedListsTest {
     // assertion
     listNodeUtils.assertListNode(expected, actual);
   }
+
+  @Test
+  public void test3MergeKLists() {
+    // test input
+    ListNode[] lists = listNodeUtils.listNodes(new int[][] {});
+
+    // set expected value
+    ListNode expected = listNodeUtils.listNode(new int[] {});
+
+    // perform test
+    ListNode actual = mergeSortedLists.mergeKLists(lists);
+
+    // assertion
+    listNodeUtils.assertListNode(expected, actual);
+  }
 }
