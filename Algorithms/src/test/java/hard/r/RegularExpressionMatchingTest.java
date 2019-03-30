@@ -253,4 +253,36 @@ public class RegularExpressionMatchingTest {
     // assertion
     assertEquals(expected, actual);
   }
+
+  @Test
+  public void test16IsMatch() {
+    // test input
+    String s = "aasdfasdfasdfasdfas";
+    String p = "aasdf.*asdf.*asdf.*asdf.*s";
+
+    // set expected value
+    boolean expected = true;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
+
+  @Test
+  public void test17IsMatch() {
+    // test input
+    String s = "baacc";
+    String p = "ba*c*d*";
+
+    // set expected value
+    boolean expected = true;
+
+    // perform test
+    boolean actual = regularExpressionMatching.isMatch(s, p);
+
+    // assertion
+    assertEquals(expected, actual);
+  }
 }
