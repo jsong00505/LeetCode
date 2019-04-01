@@ -34,6 +34,7 @@ This module is about Algorithms in LeetCode.
  V | 28  | [Implement strStr()][28-link] | [ImplementStrStr.java][28-solution] | Easy
  V | 29  | [Divide Two Integers][29-link] | [DivideTwoIntegers.java][29-solution] | Medium
  V | 30  | [Substring with Concatenation of All Words][30-link] | [SubstringWithConcatenationOfAllWords.java][30-solution] | Hard 
+ V | 31  | [Next Permutation][31-link] | [NextPermutation.java][31-solution] | Medium
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -96,5 +97,7 @@ This module is about Algorithms in LeetCode.
 [29-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/d/DivideTwoIntegers.java
 [30-link]: https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 [30-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/SubstringWithConcatenationOfAllWords.java
+[31-link]: https://leetcode.com/problems/next-permutation/
+[31-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/n/NextPermutation.java
 
 
