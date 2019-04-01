@@ -33,8 +33,7 @@ This module is about Algorithms in LeetCode.
  V | 27  | [Remove Element][27-link] | [RemoveElement.java][27-solution] | Easy
  V | 28  | [Implement strStr()][28-link] | [ImplementStrStr.java][28-solution] | Easy
  V | 29  | [Divide Two Integers][29-link] | [DivideTwoIntegers.java][29-solution] | Medium
- 
- 
+ V | 30  | [Substring with Concatenation of All Words][30-link] | [SubstringWithConcatenationOfAllWords.java][30-solution] | Hard 
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -95,3 +94,7 @@ This module is about Algorithms in LeetCode.
 [28-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/i/ImplementStrStr.java
 [29-link]: https://leetcode.com/problems/divide-two-integers/
 [29-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/d/DivideTwoIntegers.java
+[30-link]: https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+[30-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/SubstringWithConcatenationOfAllWords.java
+
+
