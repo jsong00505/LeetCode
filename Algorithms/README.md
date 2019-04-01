@@ -100,7 +100,7 @@ This module is about Algorithms in LeetCode.
 [30-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/SubstringWithConcatenationOfAllWords.java
 [31-link]: https://leetcode.com/problems/next-permutation/
 [31-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/n/NextPermutation.java
-[31-link]: https://leetcode.com/problems/longest-valid-parentheses/
-[31-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/l/LongestValidParentheses.java
+[32-link]: https://leetcode.com/problems/longest-valid-parentheses/
+[32-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/l/LongestValidParentheses.java
 
 
