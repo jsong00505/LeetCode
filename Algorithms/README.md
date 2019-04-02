@@ -35,7 +35,8 @@ This module is about Algorithms in LeetCode.
  V | 29  | [Divide Two Integers][29-link] | [DivideTwoIntegers.java][29-solution] | Medium
  V | 30  | [Substring with Concatenation of All Words][30-link] | [SubstringWithConcatenationOfAllWords.java][30-solution] | Hard 
  V | 31  | [Next Permutation][31-link] | [NextPermutation.java][31-solution] | Medium
- V | 32  | [Longest Valid Parentheses][32-link] | [LongestValidParentheses.java][32-solution] | Hard  
+ V | 32  | [Longest Valid Parentheses][32-link] | [LongestValidParentheses.java][32-solution] | Hard
+ V | 33  | [Search in Rotated Sorted Array][33-link] | [SearchInRotatedSortedArray.java][33-solution] | Medium  
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -102,5 +103,7 @@ This module is about Algorithms in LeetCode.
 [31-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/n/NextPermutation.java
 [32-link]: https://leetcode.com/problems/longest-valid-parentheses/
 [32-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/l/LongestValidParentheses.java
+[33-link]: https://leetcode.com/problems/search-in-rotated-sorted-array/
+[33-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SearchInRotatedSortedArray.java
 
 
