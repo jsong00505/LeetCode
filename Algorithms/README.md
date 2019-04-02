@@ -40,6 +40,7 @@ This module is about Algorithms in LeetCode.
  V | 34  | [Find First and Last Position of Element in Sorted Array][34-link] | [FindFirstAndLastPositionOfElementInSortedArray.java][34-solution] | Medium
  V | 35  | [Search Insert Position][35-link] | [SearchInsertPosition.java][35-solution] | Easy
  V | 36  | [Valid Sudoku][36-link] | [ValidSudoku.java][36-solution] | Medium  
+ X | 37  | [Sudoku Solver][37-link] | [SudokuSolver.java][37-solution] | Hard  
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -114,6 +115,8 @@ This module is about Algorithms in LeetCode.
 [35-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/s/SearchInsertPosition.java
 [36-link]: https://leetcode.com/problems/valid-sudoku/
 [36-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/v/ValidSudoku.java
+[37-link]: https://leetcode.com/problems/sudoku-solver/
+[37-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/SudokuSolver.java
 
 
 
