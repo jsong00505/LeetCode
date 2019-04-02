@@ -38,7 +38,8 @@ This module is about Algorithms in LeetCode.
  V | 32  | [Longest Valid Parentheses][32-link] | [LongestValidParentheses.java][32-solution] | Hard
  V | 33  | [Search in Rotated Sorted Array][33-link] | [SearchInRotatedSortedArray.java][33-solution] | Medium
  V | 34  | [Find First and Last Position of Element in Sorted Array][34-link] | [FindFirstAndLastPositionOfElementInSortedArray.java][34-solution] | Medium
- V | 35  | [Search Insert Position][35-link] | [SearchInsertPosition.java][35-solution] | Easy  
+ V | 35  | [Search Insert Position][35-link] | [SearchInsertPosition.java][35-solution] | Easy
+ V | 36  | [Valid Sudoku][36-link] | [ValidSudoku.java][36-solution] | Medium  
    
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -111,6 +112,8 @@ This module is about Algorithms in LeetCode.
 [34-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/f/FindFirstAndLastPositionOfElementInSortedArray.java
 [35-link]: https://leetcode.com/problems/search-insert-position/
 [35-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/s/SearchInsertPosition.java
+[36-link]: https://leetcode.com/problems/valid-sudoku/
+[36-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/v/ValidSudoku.java
 
 
 
