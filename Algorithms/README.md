@@ -37,6 +37,7 @@ This module is about Algorithms in LeetCode.
  V | 31  | [Next Permutation][31-link] | [NextPermutation.java][31-solution] | Medium
  V | 32  | [Longest Valid Parentheses][32-link] | [LongestValidParentheses.java][32-solution] | Hard
  V | 33  | [Search in Rotated Sorted Array][33-link] | [SearchInRotatedSortedArray.java][33-solution] | Medium
+ V | 34  | [Find First and Last Position of Element in Sorted Array][34-link] | [FindFirstAndLastPositionOfElementInSortedArray.java][34-solution] | Medium
  V | 35  | [Search Insert Position][35-link] | [SearchInsertPosition.java][35-solution] | Easy  
    
   
@@ -106,8 +107,11 @@ This module is about Algorithms in LeetCode.
 [32-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/l/LongestValidParentheses.java
 [33-link]: https://leetcode.com/problems/search-in-rotated-sorted-array/
 [33-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SearchInRotatedSortedArray.java
-
+[34-link]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+[34-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/f/FindFirstAndLastPositionOfElementInSortedArray.java
 [35-link]: https://leetcode.com/problems/search-insert-position/
 [35-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/s/SearchInsertPosition.java
+
+
 
 
