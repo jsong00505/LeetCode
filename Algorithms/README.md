@@ -43,7 +43,8 @@ This module is about Algorithms in LeetCode.
  X | 37  | [Sudoku Solver][37-link] | [SudokuSolver.java][37-solution] | Hard  
  V | 38  | [Count and Say][38-link] | [CountAndSay.java][38-solution] | Easy  
  V | 39  | [Combination Sum][39-link] | [CombinationSum.java][39-solution] | Medium  
- V | 40  | [Combination Sum II][40-link] | [CombinationSumTwo.java][40-solution] | Medium  
+ V | 40  | [Combination Sum II][40-link] | [CombinationSumTwo.java][40-solution] | Medium
+ V | 41  | [First Missing Positive][41-link] | [FirstMissingPositive.java][41-solution] | Hard  
   
 [1-link]: https://leetcode.com/problems/two-sum/
 [1-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/t/TwoSum.java
@@ -125,6 +126,8 @@ This module is about Algorithms in LeetCode.
 [39-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/CombinationSum.java
 [40-link]: https://leetcode.com/problems/combination-sum-ii/
 [40-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/CombinationSumTwo.java
+[40-link]: https://leetcode.com/problems/first-missing-positive/
+[40-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/f/FirstMissingPositive.java
 
 
 
