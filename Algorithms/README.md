@@ -42,7 +42,8 @@ This module is about Algorithms in LeetCode.
  V | 36  | [Valid Sudoku][36-link] | [ValidSudoku.java][36-solution] | Medium  
  X | 37  | [Sudoku Solver][37-link] | [SudokuSolver.java][37-solution] | Hard  
  V | 38  | [Count and Say][38-link] | [CountAndSay.java][38-solution] | Easy  
-   
+ V | 39  | [Combination Sum][39-link] | [CombinationSum.java][39-solution] | Medium  
+ V | 40  | [Combination Sum II][40-link] | [CombinationSumTwo.java][40-solution] | Medium  
   
 [1-link]: https://leetcode.com/problems/two-sum/
 [1-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/t/TwoSum.java
@@ -120,6 +121,10 @@ This module is about Algorithms in LeetCode.
 [37-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/SudokuSolver.java
 [38-link]: https://leetcode.com/problems/count-and-say/
 [38-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/c/CountAndSay.java
+[39-link]: https://leetcode.com/problems/combination-sum/
+[39-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/CombinationSum.java
+[40-link]: https://leetcode.com/problems/combination-sum-ii/
+[40-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/CombinationSumTwo.java
 
 
 
