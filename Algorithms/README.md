@@ -40,7 +40,7 @@ This module is about Algorithms in LeetCode.
  V | 34  | [Find First and Last Position of Element in Sorted Array][34-link] | [FindFirstAndLastPositionOfElementInSortedArray.java][34-solution] | Medium
  V | 35  | [Search Insert Position][35-link] | [SearchInsertPosition.java][35-solution] | Easy
  V | 36  | [Valid Sudoku][36-link] | [ValidSudoku.java][36-solution] | Medium  
- X | 37  | [Sudoku Solver][37-link] | [SudokuSolver.java][37-solution] | Hard  
+ V | 37  | [Sudoku Solver][37-link] | [SudokuSolver.java][37-solution] | Hard  
  V | 38  | [Count and Say][38-link] | [CountAndSay.java][38-solution] | Easy  
  V | 39  | [Combination Sum][39-link] | [CombinationSum.java][39-solution] | Medium  
  V | 40  | [Combination Sum II][40-link] | [CombinationSumTwo.java][40-solution] | Medium
