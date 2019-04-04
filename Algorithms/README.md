@@ -47,6 +47,7 @@ This module is about Algorithms in LeetCode.
  V | 41  | [First Missing Positive][41-link] | [FirstMissingPositive.java][41-solution] | Hard  
  V | 42  | [Trapping Rain Water][42-link] | [TrappingRainWater.java][42-solution] | Hard  
  V | 43  | [Multiply Strings][43-link] | [MultiplyStrings.java][43-solution] | Medium
+ X | 44  | [Wildcard Matching][44-link] | [WildcardMatching.java][44-solution] | Hard
  
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -135,6 +136,8 @@ This module is about Algorithms in LeetCode.
 [42-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/t/TrappingRainWater.java
 [43-link]: https://leetcode.com/problems/multiply-strings/
 [43-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/m/MultiplyStrings.java
+[44-link]: https://leetcode.com/problems/wildcard-matching/
+[44-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/w/WildcardMatching.java
 
 
 
