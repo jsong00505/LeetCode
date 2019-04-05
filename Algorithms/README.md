@@ -49,6 +49,7 @@ This module is about Algorithms in LeetCode.
  V | 43  | [Multiply Strings][43-link] | [MultiplyStrings.java][43-solution] | Medium
  V | 44  | [Wildcard Matching][44-link] | [WildcardMatching.java][44-solution] | Hard
  V | 45  | [Jump Game II][45-link] | [JumpGameTwo.java][45-solution] | Hard
+ V | 46  | [Permutations][46-link] | [Permutations.java][46-solution] | Medium
  
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -141,6 +142,8 @@ This module is about Algorithms in LeetCode.
 [44-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/w/WildcardMatching.java
 [45-link]: https://leetcode.com/problems/jump-game-ii/
 [45-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/j/JumpGameTwo.java
+[46-link]: https://leetcode.com/problems/permutations/
+[46-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/Permutations.java
 
 
 
