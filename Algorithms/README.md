@@ -51,6 +51,7 @@ This module is about Algorithms in LeetCode.
  V | 45  | [Jump Game II][45-link] | [JumpGameTwo.java][45-solution] | Hard
  V | 46  | [Permutations][46-link] | [Permutations.java][46-solution] | Medium
  V | 47  | [Permutations II][47-link] | [PermutationsTwo.java][47-solution] | Medium
+ V | 48  | [Rotate Image][48-link] | [RotateImage.java][48-solution] | Medium
  
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -147,6 +148,8 @@ This module is about Algorithms in LeetCode.
 [46-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/Permutations.java
 [47-link]: https://leetcode.com/problems/permutations-ii/
 [47-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/PermutationsTwo.java
+[48-link]: https://leetcode.com/problems/rotate-image/
+[48-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RotateImage.java
 
 
 
