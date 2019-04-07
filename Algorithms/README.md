@@ -53,6 +53,7 @@ This module is about Algorithms in LeetCode.
  V | 47  | [Permutations II][47-link] | [PermutationsTwo.java][47-solution] | Medium
  V | 48  | [Rotate Image][48-link] | [RotateImage.java][48-solution] | Medium
  V | 49  | [Group Anagrams][49-link] | [GroupAnagrams.java][49-solution] | Medium
+ V | 50  | [Pow(x,n)][50-link] | [Pow.java][50-solution] | Medium
  
   
 [1-link]: https://leetcode.com/problems/two-sum/
@@ -151,9 +152,10 @@ This module is about Algorithms in LeetCode.
 [47-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/PermutationsTwo.java
 [48-link]: https://leetcode.com/problems/rotate-image/
 [48-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RotateImage.java
-[48-link]: https://leetcode.com/problems/group-anagrams/
-[48-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/g/GroupAnagrams.java
-
+[49-link]: https://leetcode.com/problems/group-anagrams/
+[49-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/g/GroupAnagrams.java
+[50-link]: https://leetcode.com/problems/powx-n/
+[50-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/Pow.java
 
 
 
