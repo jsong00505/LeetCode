@@ -9,6 +9,7 @@
  V | 55   | [Jump Game][55-link] | [JumpGame.java][55-solution] | Medium
  V | 56   | [Merge Intervals][56-link] | [MergeIntervals.java][56-solution] | Medium
  V | 57   | [Insert Interval][57-link] | [InsertInterval.java][57-solution] | Hard
+ V | 58   | [Length of Last Word][58-link] | [LengthOfLastWord.java][58-solution] | Easy
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -24,3 +25,5 @@
 [56-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/m/MergeIntervals.java
 [57-link]: https://leetcode.com/problems/insert-interval/
 [57-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/i/InsertInterval.java
+[58-link]: https://leetcode.com/problems/length-of-last-word/
+[58-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/l/LengthOfLastWord.java
