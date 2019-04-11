@@ -11,7 +11,7 @@
  V | 57   | [Insert Interval][57-link] | [InsertInterval.java][57-solution] | Hard
  V | 58   | [Length of Last Word][58-link] | [LengthOfLastWord.java][58-solution] | Easy
  V | 59   | [Spiral Matrix II][59-link] | [SpiralMatrixTwo.java][59-solution] | Medium
- X | 60   | [Permutation Sequence][60-link] | [PermutationSequence.java][60-solution] | Medium
+ V | 60   | [Permutation Sequence][60-link] | [PermutationSequence.java][60-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
