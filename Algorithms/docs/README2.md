@@ -15,6 +15,7 @@
  V | 61   | [Rotate List][61-link] | [RotateList.java][61-solution] | Medium
  V | 62   | [Unique Paths][62-link] | [UniquePaths.java][62-solution] | Medium
  V | 63   | [Unique Paths II][63-link] | [UniquePathsTwo.java][63-solution] | Medium
+ V | 64   | [Minimum Path Sum][64-link] | [MinimumPathSum.java][64-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -42,3 +43,5 @@
 [62-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/u/UniquePaths.java
 [63-link]: https://leetcode.com/problems/unique-paths-ii/
 [63-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/u/UniquePathsTwo.java
+[64-link]: https://leetcode.com/problems/minimum-path-sum/
+[64-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/m/MinimumPathSum.java
