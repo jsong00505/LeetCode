@@ -57,6 +57,9 @@
 [66-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/p/PlusOne.java
 [67-link]: https://leetcode.com/problems/add-binary/
 [67-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/a/AddBinary.java
-
+[68-link]: https://leetcode.com/problems/text-justification/
+[68-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/t/TextJustification.java
+[69-link]: https://leetcode.com/problems/sqrtx/
+[69-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/s/SqrtX.java
 [70-link]: https://leetcode.com/problems/climbing-stairts/
 [70-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/c/ClimbingStairs.java
