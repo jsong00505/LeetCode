@@ -16,6 +16,7 @@
  V | 62   | [Unique Paths][62-link] | [UniquePaths.java][62-solution] | Medium
  V | 63   | [Unique Paths II][63-link] | [UniquePathsTwo.java][63-solution] | Medium
  V | 64   | [Minimum Path Sum][64-link] | [MinimumPathSum.java][64-solution] | Medium
+ X | 65   | [Valid Number][65-link] | [ValidNumber.java][65-solution] | Hard
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -45,3 +46,5 @@
 [63-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/u/UniquePathsTwo.java
 [64-link]: https://leetcode.com/problems/minimum-path-sum/
 [64-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/m/MinimumPathSum.java
+[65-link]: https://leetcode.com/problems/valid-number/
+[65-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/v/ValidNumber.java
