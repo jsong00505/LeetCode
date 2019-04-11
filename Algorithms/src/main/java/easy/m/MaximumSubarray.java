@@ -1,6 +1,4 @@
-package easy;
-
-import java.util.Stack;
+package easy.m;
 
 /**
  * Created by jsong on 2019-04-07.
