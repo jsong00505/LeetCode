@@ -13,6 +13,7 @@
  V | 59   | [Spiral Matrix II][59-link] | [SpiralMatrixTwo.java][59-solution] | Medium
  V | 60   | [Permutation Sequence][60-link] | [PermutationSequence.java][60-solution] | Medium
  V | 61   | [Rotate List][61-link] | [RotateList.java][61-solution] | Medium
+ V | 62   | [Unique Paths][62-link] | [UniquePaths.java][62-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -36,3 +37,5 @@
 [60-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/PermutationSequence.java
 [61-link]: https://leetcode.com/problems/rotate-list/
 [61-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RotateList.java
+[62-link]: https://leetcode.com/problems/unique-paths/
+[62-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/u/UniquePaths.java
