@@ -18,6 +18,7 @@
  V | 64   | [Minimum Path Sum][64-link] | [MinimumPathSum.java][64-solution] | Medium
  X | 65   | [Valid Number][65-link] | [ValidNumber.java][65-solution] | Hard
  V | 66   | [Plus One][66-link] | [PlusOne.java][66-solution] | Easy
+ V | 67   | [Add Binary][67-link] | [AddBinary.java][67-solution] | Easy
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -51,3 +52,5 @@
 [65-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/v/ValidNumber.java
 [66-link]: https://leetcode.com/problems/plus-one/
 [66-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/p/PlusOne.java
+[67-link]: https://leetcode.com/problems/add-binary/
+[67-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/a/AddBinary.java
