@@ -12,6 +12,7 @@
  V | 58   | [Length of Last Word][58-link] | [LengthOfLastWord.java][58-solution] | Easy
  V | 59   | [Spiral Matrix II][59-link] | [SpiralMatrixTwo.java][59-solution] | Medium
  V | 60   | [Permutation Sequence][60-link] | [PermutationSequence.java][60-solution] | Medium
+ V | 61   | [Rotate List][61-link] | [RotateList.java][61-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -33,3 +34,5 @@
 [59-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SpiralMatrixTwo.java
 [60-link]: https://leetcode.com/problems/permutation-sequence/
 [60-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/PermutationSequence.java
+[61-link]: https://leetcode.com/problems/rotate-list/
+[61-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RotateList.java
