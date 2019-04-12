@@ -19,9 +19,10 @@
  X | 65   | [Valid Number][65-link] | [ValidNumber.java][65-solution] | Hard
  V | 66   | [Plus One][66-link] | [PlusOne.java][66-solution] | Easy
  V | 67   | [Add Binary][67-link] | [AddBinary.java][67-solution] | Easy
- X | 68   | [Text Justification][68-link] | [TextJustification.java][68-solution] | Hard
- X | 69   | [Sqrt(x)][69-link] | [SqrtX.java][69-solution] | Easy
+ V | 68   | [Text Justification][68-link] | [TextJustification.java][68-solution] | Hard
+ V | 69   | [Sqrt(x)][69-link] | [SqrtX.java][69-solution] | Easy
  V | 70   | [Climbing Stairs][70-link] | [ClimbingStairs.java][70-solution] | Easy
+ V | 71   | [Simplify Path][71-link] | [SimplifyPath.java][71-solution] | Easy
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -63,3 +64,5 @@
 [69-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/s/SqrtX.java
 [70-link]: https://leetcode.com/problems/climbing-stairts/
 [70-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/c/ClimbingStairs.java
+[71-link]: https://leetcode.com/problems/simplify-path/
+[71-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SimplyPath.java
