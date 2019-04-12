@@ -65,4 +65,4 @@
 [70-link]: https://leetcode.com/problems/climbing-stairts/
 [70-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/c/ClimbingStairs.java
 [71-link]: https://leetcode.com/problems/simplify-path/
-[71-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SimplyPath.java
+[71-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SimplifyPath.java
