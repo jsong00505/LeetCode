@@ -25,6 +25,7 @@
  V | 71   | [Simplify Path][71-link] | [SimplifyPath.java][71-solution] | Easy
  X | 72   | [Edit Distance][72-link] | [EditDistance.java][72-solution] | Hard
  V | 73   | [Set Matrix Zeroes][73-link] | [SetMatrixZeroes.java][73-solution] | Medium
+ V | 74   | [Search a 2D Matrix][74-link] | [SearchA2DMatrix.java][74-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -72,4 +73,6 @@
 [72-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/e/EditDistance.java
 [73-link]: https://leetcode.com/problems/set-matrix-zeroes/
 [73-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SetMatrixZeroes.java
+[74-link]: https://leetcode.com/problems/search-a-2d-matrix/
+[74-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SearchA2DMatrix.java
 
