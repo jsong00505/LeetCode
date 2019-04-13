@@ -23,6 +23,8 @@
  V | 69   | [Sqrt(x)][69-link] | [SqrtX.java][69-solution] | Easy
  V | 70   | [Climbing Stairs][70-link] | [ClimbingStairs.java][70-solution] | Easy
  V | 71   | [Simplify Path][71-link] | [SimplifyPath.java][71-solution] | Easy
+ V | 72   | [Edit Distance][72-link] | [EditDistance.java][72-solution] | Hard
+ V | 73   | [Set Matrix Zeroes][73-link] | [SetMatrixZeroes.java][73-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -65,4 +67,8 @@
 [70-link]: https://leetcode.com/problems/climbing-stairts/
 [70-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/c/ClimbingStairs.java
 [71-link]: https://leetcode.com/problems/simplify-path/
-[71-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SimplyPath.java
+[71-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SimplifyPath.java
+[72-link]: https://leetcode.com/problems/edit-distance/
+[72-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/e/EditDistance.java
+[73-link]: https://leetcode.com/problems/set-matrix-zeroes/
+[73-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SetMatrixZeroes.java
