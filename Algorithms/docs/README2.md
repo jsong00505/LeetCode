@@ -30,6 +30,7 @@
  X | 76   | [Minimum Window Substring][76-link] | [MinimumWindowSubstring.java][76-solution] | Hard
  V | 77   | [Combinations][77-link] | [Combinations.java][77-solution] | Medium
  V | 78   | [Subsets][78-link] | [Subsets.java][78-solution] | Medium
+ V | 79   | [Word Search][79-link] | [WordSearch.java][79-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -87,4 +88,6 @@
 [77-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/Combinations.java
 [78-link]: https://leetcode.com/problems/subsets/
 [78-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/Subsets.java
+[79-link]: https://leetcode.com/problems/word-search/
+[79-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/w/WordSearch.java
 
