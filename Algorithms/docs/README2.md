@@ -27,6 +27,8 @@
  V | 73   | [Set Matrix Zeroes][73-link] | [SetMatrixZeroes.java][73-solution] | Medium
  V | 74   | [Search a 2D Matrix][74-link] | [SearchA2DMatrix.java][74-solution] | Medium
  V | 75   | [Sort Colors][75-link] | [SortColors.java][75-solution] | Medium
+ X | 76   | [Minimum Window Substring][76-link] | [MinimumWindowSubstring.java][76-solution] | Hard
+ V | 77   | [Combinations][77-link] | [Combinations.java][77-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -78,4 +80,8 @@
 [74-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SearchA2DMatrix.java
 [75-link]: https://leetcode.com/problems/sort-colors/
 [75-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SortColors.java
+[76-link]: https://leetcode.com/problems/minimum-window-substring/
+[76-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/m/MinimumWindowSubstring.java
+[77-link]: https://leetcode.com/problems/combinations/
+[77-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/c/Combinations.java
 
