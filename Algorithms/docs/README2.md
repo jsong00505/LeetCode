@@ -35,6 +35,7 @@
  V | 81   | [Search in Rotated Sorted Array II][81-link] | [SearchInRotatedSortedArrayTwo.java][81-solution] | Medium
  V | 82   | [Remove Duplicates from Sorted List II][82-link] | [RemoveDuplicatesFromSortedListTwo.java][82-solution] | Medium
  V | 83   | [Remove Duplicates from Sorted List][83-link] | [RemoveDuplicatesFromSortedList.java][83-solution] | Easy
+ V | 84   | [Largest Rectangle in Histogram][84-link] | [LargestRectangleInHistogram.java][84-solution] | Hard
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -102,4 +103,6 @@
 [82-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RemoveDuplicatesFromSortedListTwo.java
 [83-link]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 [83-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/RemoveDuplicatesFromSortedList.java
+[84-link]: https://leetcode.com/problems/largest-rectangle-in-histogram/
+[84-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/l/LargestRectangleInHistogram.java
 
