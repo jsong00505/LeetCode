@@ -8,32 +8,31 @@ package medium.s;
  * @linkedin https://www.linkedin.com/in/junesongskorea/
  * @email jsong00505@gmail.com
  * @challenge Medium - Search in Rotated Sorted Array II
- * (https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+ *     (https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
  */
 public class SearchInRotatedSortedArrayTwo {
   public boolean search(int[] nums, int target) {
     int left = 0;
     int right = nums.length - 1;
-    while(left <= right) {
+    while (left <= right) {
       int middle = (left + right) / 2;
-      if(nums[middle] == target) {
+      if (nums[middle] == target) {
         return true;
-      } else if(nums[left] == nums[right]) {
-        if(nums[middle] > target) {
-
+      }
+      if (nums[middle] < nums[right] || nums[middle] < nums[left]) {
+        if (nums[middle] < target && nums[right] >= target) {
+          left = middle + 1;
+        } else {
+          right = middle - 1;
         }
-      } else if(nums[middle] > target) {
-        if(nums[left] <= target) {
+      } else if (nums[middle] > nums[left] || nums[middle] > nums[right]) {
+        if (nums[middle] > target && nums[left] <= target) {
           right = middle - 1;
         } else {
           left = middle + 1;
         }
       } else {
-        if (nums[right] >= target) {
-          left = middle + 1;
-        } else {
-          right = middle - 1;
-        }
+        right--;
       }
     }
     return false;
