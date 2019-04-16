@@ -27,7 +27,7 @@
  V | 73   | [Set Matrix Zeroes][73-link] | [SetMatrixZeroes.java][73-solution] | Medium
  V | 74   | [Search a 2D Matrix][74-link] | [SearchA2DMatrix.java][74-solution] | Medium
  V | 75   | [Sort Colors][75-link] | [SortColors.java][75-solution] | Medium
- X | 76   | [Minimum Window Substring][76-link] | [MinimumWindowSubstring.java][76-solution] | Hard
+ V | 76   | [Minimum Window Substring][76-link] | [MinimumWindowSubstring.java][76-solution] | Hard
  V | 77   | [Combinations][77-link] | [Combinations.java][77-solution] | Medium
  V | 78   | [Subsets][78-link] | [Subsets.java][78-solution] | Medium
  V | 79   | [Word Search][79-link] | [WordSearch.java][79-solution] | Medium
