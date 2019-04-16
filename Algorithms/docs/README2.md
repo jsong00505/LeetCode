@@ -23,7 +23,7 @@
  V | 69   | [Sqrt(x)][69-link] | [SqrtX.java][69-solution] | Easy
  V | 70   | [Climbing Stairs][70-link] | [ClimbingStairs.java][70-solution] | Easy
  V | 71   | [Simplify Path][71-link] | [SimplifyPath.java][71-solution] | Easy
- X | 72   | [Edit Distance][72-link] | [EditDistance.java][72-solution] | Hard
+ V | 72   | [Edit Distance][72-link] | [EditDistance.java][72-solution] | Hard
  V | 73   | [Set Matrix Zeroes][73-link] | [SetMatrixZeroes.java][73-solution] | Medium
  V | 74   | [Search a 2D Matrix][74-link] | [SearchA2DMatrix.java][74-solution] | Medium
  V | 75   | [Sort Colors][75-link] | [SortColors.java][75-solution] | Medium
