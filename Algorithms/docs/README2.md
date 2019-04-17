@@ -38,6 +38,9 @@
  V | 84   | [Largest Rectangle in Histogram][84-link] | [LargestRectangleInHistogram.java][84-solution] | Hard
  V | 85   | [Maximal Rectangle][85-link] | [MaximalRectangle.java][85-solution] | Hard
  V | 86   | [Partition List][86-link] | [PartitionList.java][86-solution] | Hard
+ X | 87   | [Scramble String][87-link] | [ScrambleString.java][87-solution] | Hard
+ V | 88   | [MergeSortedArray][88-link] | [MergeSortedArray.java][88-solution] | Easy
+ V | 89   | [Gray Code][89-link] | [GrayCode.java][89-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -111,4 +114,10 @@
 [85-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/m/MaximalRectangle.java
 [86-link]: https://leetcode.com/problems/partition-list/
 [86-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/PartitionList.java
+[87-link]: https://leetcode.com/problems/scramble-string/
+[87-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/s/ScrambleString.java
+[88-link]: https://leetcode.com/problems/merge-sorted-array/
+[88-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/m/MergeSortedArray.java
+[89-link]: https://leetcode.com/problems/gray-code/
+[89-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/p/GrayCode.java
 
