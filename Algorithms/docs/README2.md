@@ -42,6 +42,7 @@
  V | 88   | [MergeSortedArray][88-link] | [MergeSortedArray.java][88-solution] | Easy
  V | 89   | [Gray Code][89-link] | [GrayCode.java][89-solution] | Medium
  V | 90   | [Subsets II][90-link] | [SubsetsTwo.java][90-solution] | Medium
+ V | 91   | [Decode Ways][91-link] | [DecodeWays.java][91-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -122,5 +123,7 @@
 [89-link]: https://leetcode.com/problems/gray-code/
 [89-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/g/GrayCode.java
 [90-link]: https://leetcode.com/problems/subsets-ii/
-[0--solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SubsetsTwo.java
+[90-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/s/SubsetsTwo.java
+[91-link]: https://leetcode.com/problems/decode-ways/
+[91-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/d/DecodeWays.java
 
