@@ -45,6 +45,7 @@
  V | 91   | [Decode Ways][91-link] | [DecodeWays.java][91-solution] | Medium
  V | 92   | [Reverse Linked List II][92-link] | [ReverseLinkedListTwo.java][92-solution] | Medium
  V | 93   | [Restore IP Address][93-link] | [RestoreIPAddress.java][93-solution] | Medium
+ V | 94   | [Binary Tree Inorder Traversal][94-link] | [BinaryTreeInorderTraversal.java][94-solution] | Medium
  
 [51-link]: https://leetcode.com/problems/n-queens/
 [51-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/q/QueensN.java
@@ -132,3 +133,5 @@
 [92-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/ReverseLinkedListTwo.java
 [93-link]: https://leetcode.com/problems/restore-ip-address/
 [93-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/r/RestoreIPAddress.java
+[94-link]: https://leetcode.com/problems/binary-tree-inorder-traversal/
+[94-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/medium/b/BinaryTreeInorderTraversal.java
