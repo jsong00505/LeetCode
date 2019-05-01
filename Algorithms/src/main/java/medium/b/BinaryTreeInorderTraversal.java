@@ -4,6 +4,7 @@ import common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created by jsong on 2019-04-30.
@@ -18,8 +19,27 @@ import java.util.List;
 public class BinaryTreeInorderTraversal {
   public List<Integer> inorderTraversal(TreeNode root) {
 
+    boolean iteration = true;
+
     List<Integer> result = new ArrayList<>();
-    if (root != null) {
+
+    // iteration
+    if (iteration) {
+      Stack<TreeNode> stack = new Stack<>();
+      TreeNode current = root;
+      while (current != null || !stack.empty()) {
+        while (current != null) {
+          stack.push(current);
+          current = current.left;
+        }
+        current = stack.pop();
+        result.add(current.val);
+        current = current.right;
+      }
+    }
+
+    // back track
+    if (root != null && !iteration) {
       travel(result, root);
     }
 
