@@ -12,6 +12,7 @@ import java.util.Map;
  * @github https://github.com/jsong00505/
  * @linkedin https://www.linkedin.com/in/junesongskorea/
  * @email jsong00505@gmail.com
+ * @company UBER
  * @challenge Easy - Two Sum(https://leetcode.com/problems/two-sum/)
  */
 public class TwoSum {
@@ -26,12 +27,12 @@ public class TwoSum {
 
     for (int i = 0; i < nums.length; i++) {
       if (rest.containsKey(nums[i]) && rest.get(nums[i]) != i) {
-        return new int[]{i, rest.get(nums[i])};
+        return new int[] {i, rest.get(nums[i])};
       }
     }
     return null;
   }
-  
+
   public int[] twoSumByList(int[] nums, int target) {
 
     List<Integer> restOfTarget = new ArrayList<>();

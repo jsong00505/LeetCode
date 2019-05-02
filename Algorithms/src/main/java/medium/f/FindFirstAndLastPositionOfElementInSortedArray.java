@@ -7,6 +7,7 @@ package medium.f;
  * @github https://github.com/jsong00505/
  * @linkedin https://www.linkedin.com/in/junesongskorea/
  * @email jsong00505@gmail.com
+ * @company UBER
  * @challenge Medium - Find First and Last Position of Element in Sorted Array
  *     (https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
  */
