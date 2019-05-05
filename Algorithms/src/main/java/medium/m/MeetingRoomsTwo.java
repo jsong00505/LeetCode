@@ -4,6 +4,16 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/**
+ * Created by jsong on 2019-05-04.
+ *
+ * @leetcode https://leetcode.com/jsong00505/
+ * @github https://github.com/jsong00505/
+ * @linkedin https://www.linkedin.com/in/junesongskorea/
+ * @email jsong00505@gmail.com
+ * @company UBER
+ * @challenge Medium - Meeting Rooms II (https://leetcode.com/problems/meeting-rooms-ii/)
+ */
 public class MeetingRoomsTwo {
   public int minMeetingRooms(int[][] intervals) {
     if (intervals.length == 0) {
