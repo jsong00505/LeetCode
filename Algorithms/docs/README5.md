@@ -2,7 +2,10 @@
 
  V | #  | Title | Solution | Difficulty 
 -- | --- | ----- | -------- | ---------- 
+V | 206   | [Reverse Linked List][206-link] | [ReverseLinkedList.java][206-solution] | Easy
 V | 224   | [Basic Calculator][224-link] | [BasicCalculator.java][224-solution] | Hard
 
+[206-link]: https://leetcode.com/problems/reverse-linked-list/
+[206-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/easy/r/ReverseLinkedList.java
 [224-link]: https://leetcode.com/problems/basic-calculator/
 [224-solution]: https://github.com/jsong00505/LeetCode/blob/master/Algorithms/src/main/java/hard/b/BasicCalculator.java
