@@ -2,6 +2,9 @@ package easy.c;
 
 import common.Node;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by jsong on 2019-05-05.
  *
@@ -17,6 +20,8 @@ public class ConstructQuadTree {
     if (grid.length == 0) {
       return null;
     }
+    List<int[]> test = new ArrayList<>();
+    test.toArray(new int[3][]);
     return divideAndConquer(grid, 0, 0, grid.length);
   }
 
@@ -30,7 +35,6 @@ public class ConstructQuadTree {
     } else {
       int l = length / 2;
 
-      Node result = new Node();
       Node topLeft = divideAndConquer(grid, row, column, l);
       Node topRight = divideAndConquer(grid, row, column + l, l);
       Node bottomLeft = divideAndConquer(grid, row + l, column, l);
